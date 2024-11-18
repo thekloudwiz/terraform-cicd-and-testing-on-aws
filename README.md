@@ -1,2 +1,2 @@
 # workshop-terraform-cicd-and-testing-on-aws
-This GitHub repository contains custom Terraform modules and examples of using the Terraform Test Framework to validate module functionality. It includes a Terraform CI/CD pipeline on AWS for automated testing and an additional pipeline to deploy an example production workload to an AWS account.
+In this repository, you’ll find custom Terraform modules designed to streamline infrastructure management and examples of using the Terraform Test Framework to validate these modules. The setup also includes a Terraform CI/CD pipeline on AWS, built to automate testing workflows. Additionally, there’s a separate CI/CD pipeline configuration for deploying a sample production workload to an AWS account.
