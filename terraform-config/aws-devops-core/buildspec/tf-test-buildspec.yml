@@ -1,0 +1,14 @@
+# Terraform Test
+version: 0.1
+phases:
+  # install:
+  #   commands:
+  #     - export TF_VAR_github_token=$GITHUB_TOKEN
+  pre_build:
+    commands:
+      - terraform init
+      - terraform validate
+
+  build:
+    commands:
+      - terraform test
